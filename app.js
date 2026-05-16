@@ -1,6 +1,6 @@
 // --- CONFIGURATION ---
 // I fixed the URL typo: 'lffrzrwdev' matches your Anon Key project reference
-const SUPABASE_URL = "https://lffrzrwdevjwfasnhgf.supabase.co"; 
+const SUPABASE_URL = "https://lffrzrwdevjwfasnhgf.supabase.co";
 const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxmZnJ6cndlZXZqd2pmYXNuaGdmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzg4NzY2NTksImV4cCI6MjA5NDQ1MjY1OX0.Vx6tb6gwt-O7oumGUXeGSYmw1wfoduoFSGwv-xkBvcY";
 const CLOUD_NAME = "dwem3zv3t";
 const UPLOAD_PRESET = "Mwaminichatweb";
