@@ -7,13 +7,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- 1 & 2. Auth Page (Welcome Page) -->
     <div id="auth-container" class="auth-screen">
         <div class="auth-box">
-            <h2>Welcome to MWAMINI CHAT WEB</h2>
-            <p>High Security • Private • Real-time</p>
-            <input type="email" id="auth-email" placeholder="Email Address" required>
-            <input type="password" id="auth-password" placeholder="Password" required>
+            <h1>MWAMINI CHAT WEB</h1>
+            <p>Secure Real-time Messaging</p>
+            <input type="email" id="auth-email" placeholder="Email Address">
+            <input type="password" id="auth-password" placeholder="Password">
             <div class="auth-buttons">
                 <button id="btn-login">Login</button>
                 <button id="btn-register">Register</button>
@@ -21,28 +20,26 @@
         </div>
     </div>
 
-    <!-- 3. Dashboard (WhatsApp Web Style) -->
     <div id="dashboard-container" class="dashboard-screen hidden">
         <div class="sidebar">
             <div class="sidebar-header">
                 <h3>Chats</h3>
                 <button id="btn-logout">Logout</button>
             </div>
-            <div id="user-list" class="list-container">
-                <p style="padding: 20px; color: #888;">Loading contacts...</p>
-            </div>
+            <div id="user-list" class="list-container"></div>
         </div>
 
         <div class="chat-area">
-            <div id="chat-header" class="chat-header">Select a contact to start chatting</div>
+            <div id="chat-header" class="chat-header">Select a contact to start</div>
             <div id="chat-messages" class="messages-container"></div>
-            <div id="upload-status" class="status-bar hidden">Uploading media...</div>
+            
             <div id="chat-input-area" class="chat-input-bar hidden">
                 <input type="file" id="media-input" accept="image/*,video/*" style="display:none;">
                 <button id="btn-attach" onclick="document.getElementById('media-input').click()">📎</button>
                 <input type="text" id="text-input" placeholder="Type a message...">
                 <button id="btn-send">Send</button>
             </div>
+            <div id="upload-status" class="status-overlay">Uploading to Cloudinary...</div>
         </div>
     </div>
 
